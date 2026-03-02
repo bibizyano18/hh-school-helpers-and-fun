@@ -1,2 +1,11 @@
-const foo = 'bar';
-foo = 'baz';
+const foo = "bar";
+foo = "baz";
+
+matrix(1, 0, 0, 0, 1, 0, 0, 0, 1);
+
+// prettier-ignore
+matrix(
+  1, 0, 0,
+  0, 1, 0,
+  0, 0, 1
+)
