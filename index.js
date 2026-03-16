@@ -1,8 +1,9 @@
-var foo = 'bar';
+let foo = 'bar';
 foo = 'baz';
+console.log(foo);
 
 // prettier-ignore
-matrix = [
+let matrix = [
   1, 0, 0,
   0, 1, 0,
   0, 0, 1
@@ -10,4 +11,4 @@ matrix = [
 
 matrix = [10, 0, 0, 0, 1, 0, 0, 0, 1];
 
-document.getElementById('header').textContent = matrix;
+window.document.getElementById('header').textContent = matrix;
