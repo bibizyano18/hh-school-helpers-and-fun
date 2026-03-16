@@ -18,6 +18,6 @@
     "**/*.rc.js",
     "vite.config.js",
     ".eslintrc.js",
-    ".lintstagedrc.сjs"
+    ".lintstagedrc.js"
   ]
 }

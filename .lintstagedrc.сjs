@@ -1,5 +1,0 @@
-export default {
-    '*.{js,jsx,ts,tsx}': ['lint-files-fix', 'type-check --allowJs','format'],
-    '*.{json,md}': ['format'],
-    '*.html': ['format'],
-};
