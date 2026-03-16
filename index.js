@@ -1,5 +1,5 @@
-let foo = 'bar';
-foo = 'baz';
+let foo = "bar";
+foo = "baz";
 console.log(foo);
 
 // prettier-ignore
@@ -11,4 +11,7 @@ let matrix = [
 
 matrix = [10, 0, 0, 0, 1, 0, 0, 0, 1];
 
-window.document.getElementById('header').textContent = matrix;
+const header = document.getElementById("header");
+if (header) {
+  header.textContent = matrix.join("");
+}

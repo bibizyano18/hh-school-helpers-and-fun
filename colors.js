@@ -1,3 +1,3 @@
-var colors = require('colors');
+import "colors";
 
-console.log('yellow message'.yellow.bold);
+console.log("yellow message".yellow);

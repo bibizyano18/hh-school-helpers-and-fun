@@ -10,7 +10,10 @@
     "build": "vite build",
     "deploy": "npm run build && gh-pages -d build",
     "prepare": "husky",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "lint": "eslint",
+    "lint-files": "eslint *.js *.ts",
+    "lint-files-fix": "eslint . --fix"
   },
   "private": true,
   "devDependencies": {
