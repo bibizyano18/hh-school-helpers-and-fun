@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*", "*.js", "*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.config.js",
+    "**/*.rc.js",
+    "vite.config.js",
+    ".eslintrc.js",
+    ".lintstagedrc.js"
+  ]
+}

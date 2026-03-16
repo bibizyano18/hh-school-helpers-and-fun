@@ -1,0 +1,43 @@
+{
+  "name": "hh-school-helpers-and-fun",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d build",
+    "prepare": "husky",
+    "type-check": "tsc --noEmit --allowJs",
+    "lint": "eslint",
+    "lint-files": "eslint *.js *.ts",
+    "lint-files-fix": "eslint . --fix",
+    "format": "prettier --write",
+    "format-check": "prettier --check",
+    "check": "npm run lint && npm run format-check",
+    "fix": "npm run lint-files-fix && npm run format"
+  },
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^9.39.3",
+    "eslint-plugin-react": "^7.37.5",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.1",
+    "prettier": "3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
