@@ -2,13 +2,15 @@
   "name": "hh-school-helpers-and-fun",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
     "deploy": "npm run build && gh-pages -d build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "type-check": "tsc --noEmit"
   },
   "private": true,
   "devDependencies": {
